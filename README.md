@@ -31,3 +31,21 @@ docker build -t <image_name>:latest .
 ```
 docker run -d --name <image_name>   -p 8000:8000 -p 8001:8001 <image_name>:latest
 ```
+
+## 功能
+### 主体功能概览
+![alt text](image-1.png)
+
+### 代码缺陷检测
+![alt text](9月27日.gif)
+
+### 鸿蒙编译命令
+
+需提前上传压缩好的harmony项目
+```
+curl.exe -X POST -F "file=@./<your_harmony_project_name>.zip" http://<your_ip>:8001/upload
+```
+请注意 鸿蒙编译命令仅支持上传一个项目再进行一次编译 请勿上传多个项目
+压缩包内路径应直接为项目根目录 请勿包含多余的文件夹
+
+![alt text](<9月27日 (1).gif>)
