@@ -18,7 +18,7 @@ chmod a+x hfd.sh
 ```
 export HF_ENDPOINT=https://hf-mirror.com
 ```
-下载模型
+下载模型(模型较大可能需要较长时间，若中断可再次运行改命令从上次断点处继续下载)
 ```
 ./hfd.sh NovaSearch/stella_en_1.5B_v5
 ```
