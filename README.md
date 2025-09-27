@@ -37,7 +37,7 @@ docker run -d --name <image_name>   -p 8000:8000 -p 8001:8001 <image_name>:lates
 ![alt text](image-1.png)
 
 ### 代码缺陷检测
-![alt text](9月27日.gif)
+![alt text](9月27日(1).gif)
 
 ### 鸿蒙编译命令
 
@@ -48,4 +48,4 @@ curl.exe -X POST -F "file=@./<your_harmony_project_name>.zip" http://<your_ip>:8
 请注意 鸿蒙编译命令仅支持上传一个项目再进行一次编译 请勿上传多个项目
 压缩包内路径应直接为项目根目录 请勿包含多余的文件夹
 
-![alt text](<9月27日 (1).gif>)
+![alt text](<9月27日 (1)(1).gif>)
